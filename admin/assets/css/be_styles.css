@@ -1,0 +1,36 @@
+/*-------------------------
+	General Styles
+--------------------------*/
+
+.be-product-edit-old-image-item label {
+	margin:15px !important;
+}
+.be-product-edit-old-image-item img {
+	margin-left:15px;
+	width:100px;
+	height:70px;
+	border:1px solid #999;
+}
+
+#be-product-add-new-images {
+	margin-top:-25px;
+}
+
+.be-image-bordered {
+	border:1px solid #DDD;
+}
+
+.be-div-border-right {
+	border-right:1px solid #EEE;
+}
+
+
+.be-payment-verified {
+	font-size:20px;
+	color:#18a7f5;
+}
+.be-payment-unverified {
+	font-size:20px;
+	color:#cccccc;
+}
+

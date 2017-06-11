@@ -1,0 +1,127 @@
+.be-border-none {
+	border:none;
+}
+.be-center {
+	text-align:center;
+}
+.be-clear {
+	width:100%;
+	height:0;
+	clear:both;
+}
+.be-padding-10 {
+	padding:10px;
+}
+.be-margin-10 {
+	margin:10px;
+}
+.be-margin-left10 {
+	margin-left:10px;
+}
+.be-font-underline {
+	text-decoration: underline;
+}
+.be-font-italic {
+	font-style: italic;
+}
+.be-font-red {
+	color:#F00;
+}
+.be-font-pink {
+	color:#eb4175;
+}
+.be-font-grey {
+	color:#AAA;
+}
+.be-font-light-grey {
+	color:#CCC;
+}
+.be-font-dark-grey {
+	color:#666;
+}
+.be-font-light-black {
+	color:#2a2a2a;
+}
+.be-font-black {
+	color:#1f1f1f;
+}
+.be-font-cyan {
+	color:#6adbd7;
+}
+.be-font-white {
+	color:#FFF;
+}
+.be-font-yellow {
+	color:#f9b10a;
+}
+.be-font-orange {
+	color:#f75d36;
+}
+.be-font-green {
+	color:#6eab7c;
+}
+.be-font-bold {
+	font-weight:bold;
+}
+.be-font-s10 {
+	font-size:10px;
+}
+.be-font-s11 {
+	font-size:11px;
+}
+.be-font-s12 {
+	font-size:12px;
+}
+.be-font-s14 {
+	font-size:14px;
+}
+.be-font-s16 {
+	font-size:16px;
+}
+.be-font-s18 {
+	font-size:18px;
+}
+.be-font-s20 {
+	font-size:20px;
+}
+.be-font-s22 {
+	font-size:22px;
+}
+.be-font-s24 {
+	font-size:24px;
+}
+.be-font-s26 {
+	font-size:26px;
+}
+.be-font-s30 {
+	font-size:30px;
+}
+.be-font-s32 {
+	font-size:32px;
+}
+.be-font-s34 {
+	font-size:34px;
+	line-height:40px;
+}
+.be-font-s36 {
+	font-size:36px;
+	line-height:40px;
+}
+.be-font-s48 {
+	font-size:48px;
+}
+.be-font-s54 {
+	font-size:54px;
+}
+.be-font-merriweather {
+	font-family: 'Merriweather', Georgia, Times New Roman, serif !important;
+}
+.be-bg-white {
+	background:#FFFFFF;
+}
+.be-no-round-border {
+	border-radius: 0px !important;
+	-webkit-border-radius: 0px !important;
+	-moz-border-radius: 0px !important;
+	-o-border-radius: 0px !important;
+}

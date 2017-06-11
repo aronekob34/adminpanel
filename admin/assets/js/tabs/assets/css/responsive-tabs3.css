@@ -1,0 +1,157 @@
+.tabs3 {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	border: 1px solid #e0e0e0;
+	border-bottom: none;
+	height: 31px;
+	width: 100%;
+	background-color: #eee;
+	position: relative;
+	z-index: 4;
+}
+.tabs3 li {
+	margin: 0;
+	text-align: left;
+	font-family: 'Raleway', sans-serif;
+}
+.tabs3 li a {
+	/* float: left;
+	color: #272727;
+	height: 54px;
+	padding: 0px 40px;
+	font-weight: 400;
+	text-decoration: none;
+	line-height: 50px;
+	font-size: 14px;
+	background-color: #eee;
+	border-right: 1px solid #fff; */
+	float: left;
+	color: #272727;
+	height: 30px;
+	padding: 0px 15px;
+	font-weight: 400;
+	text-decoration: none;
+	line-height: 30px;
+	font-size: 14px;
+	background-color: #eee;
+	border-right: 1px solid #fff;
+}
+.tabs3 li a:hover {
+	color: #13afeb;
+}
+.tabs3 li.active a {
+	color: #13afeb;
+	border-bottom: 1px solid #fff;
+	background-color: #fff;
+}
+.tabs-content3 {
+	float: left;
+	width: 91%;
+	padding: 5% 4% 3% 4%;
+	text-align: left;
+	/* margin-bottom: 40px; */
+	min-height:100px;
+	margin-top: -1px;
+	border: 1px solid #e0e0e0;
+	background-color: #fff;
+	position: relative;
+	z-index: 3;
+}
+.tabs-content3 img.img_left2 {
+	width: auto;
+	margin-right: 25px;
+	margin-bottom: 20px;
+}
+.tabs-content3 .tabs-panel {
+	padding: 20px;
+}
+.tabs-content3 .tabs-panel3 .tab-title3 {
+	display: none;
+}
+.tabs-content3.two {
+	width: 100%;
+	padding: 0%;
+}
+.tabs3.two li a {
+	padding: 0px 20px;
+}
+
+
+/*	#Themes
+//	================================================== */
+
+#example-3 .tabs3 li {
+width: 100px;
+border: 1px solid #DDD;
+border-right: 0;
+background: #EEE;
+cursor: pointer;
+position: relative;
+z-index: 999;
+}
+#example-3 .tabs3 li:last-child {
+border-right: 1px solid #DDD;
+}
+#example-3 .tabs3 li.active {
+border-bottom: 1px solid #FFF;
+background: #FFF;
+}
+#example-3 .tabs-content3 {
+border: 1px solid #DDD;
+background: #FFF;
+position: relative;
+top: -1px;
+z-index: 99;
+}
+#example-3 .tabs-content3 .tab-title {
+color: #0b8593;
+}
+
+
+@media only screen and (min-width: 1000px) and (max-width: 1169px){
+
+.tabs3 li a {
+	padding: 0px 20px;
+}
+	
+}
+
+@media only screen and (min-width: 768px) and (max-width: 999px){
+
+.tabs3 li a {
+	padding: 0px 10px;
+}
+
+.tabs3.two li a {
+	padding: 0px 10px;
+}
+
+
+
+
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+.tabs3 li a {
+	padding: 0px 10px;
+}
+
+}
+
+
+@media only screen and (max-width: 479px){
+.tabs3 li a {
+	padding: 0px 5px;
+	font-size: 13px;
+}
+
+.tabs-content3 img.img_left2 {
+	width: 100%;
+	margin-right: 0px;
+}
+
+	
+}
+

@@ -1,0 +1,49 @@
+/*-------------------------
+	General Styles
+--------------------------*/
+/* *, html, body, address, blockquote, div, dl, form, h1, h2, h3, h4, h5, h6, ol, p, pre, table, ul,
+dd, dt, li, tbody, td, tfoot, th, thead, tr, button, del, ins, map, object,
+a, abbr, acronym, b, bdo, big, br, cite, code, dfn, em, i, img, kbd, q, samp, small, span,
+strong, sub, sup, tt, var, legend, fieldset {
+	margin: 0;
+	padding: 0;
+} */
+img, fieldset, iframe {
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration:none;
+}
+a:hover,
+a:focus {
+	text-decoration:none;
+}
+html, body {
+	height:100%;
+	margin:0;
+	padding:0;
+	min-height:640px;
+	min-width:320px;
+	font-size:13px;
+	font-family:sans-serif;
+	border-collapse:collapse;
+}
+/*-------------------------
+	General Layout
+--------------------------*/
+.container-wrapper {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  /* background: #ffffff; */
+  border: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;	
+  text-shadow: 0 1px 0 #fff;
+}
+.container {
+	padding:20px 0;
+}
