@@ -20,6 +20,7 @@ class News extends CI_Controller {
 					}
 				}
 			}
+			// check the news form
 			if(!$request_form_success) {
 				$response['result'] = 0;
 				$response['report']['status'] = 0;

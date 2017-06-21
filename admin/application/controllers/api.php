@@ -20,6 +20,8 @@ class Api extends CI_Controller {
 			if(isset($_POST['copy']) && $_POST['copy'] == 'on') {
 				$this->email->cc($_POST['email']);
 			}
+			print_r($_POST);
+
 			$this->email->subject($_POST['subject']);
 			$this->email->message($_POST['message'] . "\n\n" . 'Regards, ' . $_POST['name'] . '.' . "\n\n" . $site_info['site_name'] . ' Contact Support');
 			$this->email->reply_to($_POST['email'], $_POST['name']);
